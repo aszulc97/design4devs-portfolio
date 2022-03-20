@@ -120,7 +120,7 @@ section {
 
 #headline {
   background-color: #ddd;
-  padding: 3rem 10rem;
+  padding: 10rem 20rem;
 }
 
 #headline * {
@@ -135,6 +135,7 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 1rem 8rem;
+  flex-wrap: wrap;
 }
 
 .assignment_card {
@@ -159,7 +160,6 @@ section {
 
 #assignment a:hover {
   cursor: pointer;
-  opacity: 70%;
   border: 5px solid var(--darksand);
 }
 
@@ -208,12 +208,14 @@ section {
 
 #uicards {
   display: flex;
+  flex-wrap: wrap;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem 15rem;
+  flex-wrap: wrap;
 }
 
 footer h4 {
@@ -232,4 +234,57 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1660px) {
+  #cards {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1100px) {
+  header,
+  #headline,
+  #solution,
+  #fonts_header {
+    padding: 5rem 12rem;
+  }
+  #mockup img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 660px) {
+  header,
+  #headline,
+  #solution,
+  #fonts_header {
+    padding: 3rem 4rem;
+  }
+}
+
+@media (max-width: 520px) {
+  html {
+    font-size: 11px;
+  }
+  footer,
+  #assignment,
+  #fonts_header {
+    padding: 3rem;
+  }
+  nav ul {
+    padding: 0;
+  }
 }
