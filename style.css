@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Asar&family=Lato:wght@400;900&display=swap");
+
+html {
+  --darkblue: #082136;
+  --darkerblue: #031829;
+  --sand: #f2e2ce;
+  --darksand: #d9bba0;
+
+  font-size: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 0;
+  background-color: var(--darkblue);
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4.209rem;
+  font-weight: 900;
+  color: var(--sand);
+}
+
+h2 {
+  font-size: 3.157rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 2.369rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.777rem;
+  margin: 0;
+}
+
+h5,
+p,
+li,
+a {
+  font-size: 1.333rem;
+}
+
+h2,
+h3,
+h4,
+a,
+p,
+li {
+  color: var(--darksand);
+}
+
+nav {
+  display: flex;
+  margin: 1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav p {
+  font-family: "Asar", serif;
+  font-size: 2rem;
+  margin: 0;
+  color: var(--sand);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav p:hover,
+nav li:hover {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+header {
+  padding: 10rem 23rem;
+}
+
+#fonts_header {
+  padding: 5rem 16rem;
+}
+
+button {
+  background-color: var(--darkblue);
+  border: 1px solid var(--sand);
+  color: var(--sand);
+  font-size: 1.333rem;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 4vw;
+}
+
+button:hover {
+  background-color: var(--sand);
+  color: var(--darkblue);
+  cursor: pointer;
+}
+
+section {
+  padding: 2rem 7rem;
+}
+
+#headline {
+  background-color: #ddd;
+  padding: 3rem 10rem;
+}
+
+#headline * {
+  color: var(--darkblue) !important;
+}
+
+#assignment {
+  padding: 3rem 10rem;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+}
+
+.assignment_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.assignment_card img {
+  width: 80%;
+}
+
+.assignment_card h4 {
+  margin-bottom: 2rem;
+}
+
+#assignment a {
+  border: 5px solid var(--darkblue);
+}
+
+#assignment a:hover {
+  cursor: pointer;
+  opacity: 70%;
+  border: 5px solid var(--darksand);
+}
