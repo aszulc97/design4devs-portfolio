@@ -208,7 +208,6 @@ section {
 
 #uicards {
   display: flex;
-  flex-wrap: wrap;
 }
 
 footer {
@@ -257,6 +256,9 @@ footer a:hover {
   }
   #mockup img {
     width: 100%;
+  }
+  #uicards {
+    flex-wrap: wrap;
   }
 }
 
