@@ -70,7 +70,8 @@ nav {
   align-items: center;
 }
 
-nav > a {
+nav > a,
+footer p {
   font-family: "Asar", serif;
   font-size: 2rem;
   margin: 0;
@@ -207,4 +208,28 @@ section {
 
 #uicards {
   display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 15rem;
+}
+
+footer h4 {
+  font-weight: 900;
+}
+
+footer div ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li,
+footer a {
+  color: var(--sand);
+}
+
+footer a:hover {
+  text-decoration: underline;
 }

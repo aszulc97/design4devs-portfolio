@@ -12,48 +12,51 @@
       <a href="index.html">AGATA SZULC</a>
       <ul>
         <li><a href="index.html#assignment">Projects</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li>Contact</li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <header id="fonts_header">
       <h3>Assignment</h3>
-      <h1>Fonts and UI cards</h1>
+      <h1>Responsive design</h1>
     </header>
     <main>
       <section id="mockup">
-        <img src="img/fonts-mockup.png" />
+        <img src="img/resp-mockup.png" />
       </section>
       <section id="solution">
         <h2>Solution</h2>
-        <a href="https://aszulc97.github.io/12c.01.01-fonts-and-cards/">Solution</a>
+        <a href="https://aszulc97.github.io/12c.01.04.responsive-design/" target="_blank">Solution</a>
         <br />
-        <a href="https://github.com/aszulc97/12c.01.01-fonts-and-cards">Github repository</a>
+        <a href="https://github.com/aszulc97/12c.01.04.responsive-design" target="_blank">Github repository</a>
         <div class="solution_text">
-          <h3>Fonts</h3>
+          <h3>Styling</h3>
           <p>
-            I decided to get an inspiration from Figma's font pairing. I knew that I wanted to use Lato as a font for bodytext, so
-            I checked out <a href="https://www.figma.com/google-fonts/lato-font-pairings/">this</a> link and decided to use a
-            display font, Abril Fatface as my second one. I applied it to all headers (h1, h2 and h3), but for UI elements I
-            decided to stick with Lato to keep readability.
+            At first I had to style the whole page according to comments located in html file. I've styled UI cards almost the
+            same way as I did it in <a href="fonts.html" target="_blank">the first exercise</a> and used the same colors as in
+            <a href="colors.html" target="_blank">the second exercise</a>. To layout the UI cards on the website I used grid with
+            responsive columns (using repeat(auto-fill, minmax())). To make other parts of the website responsive, I used media
+            queries. I've changed all flexes in row direction to column and fixed some margins and paddings in many different
+            elements. Moreover I used responsive units like rem or vw.
           </p>
+          <h3>Responsiveness</h3>
           <p>
-            To keep balance in font sizing, I used <a href="https://type-scale.com/">Type Scale</a>. I kept 16px as my base size
-            and chose Major Third as a scale.
+            To layout the UI cards on the website I used grid with responsive columns (using repeat(auto-fill, minmax())). To make
+            other parts of the website responsive, I used media queries. I've changed all flexes in row direction to column and
+            fixed some margins and paddings in many different elements. Moreover I used responsive units like rem or vw.
           </p>
-          <h3>UI Cards</h3>
-          <div id="uicards">
-            <p>
-              I decided to add sunny yellow to the design as an accent but also as a call-to-action. Since the rest of the website
-              is kept in greyscale, using some color made the website a bit more interesting. I used grid to layout the cards on
-              the website and flex to layout content of each card. Instead of using borders, I applied a shadow to each card to
-              make them more visible and well structured.
-            </p>
-            <img src="img/card.png" />
-          </div>
         </div>
       </section>
     </main>
-    <footer id="#contact"></footer>
+    <footer id="contact">
+      <p>AGATA SZULC</p>
+      <div>
+        <h4>Contact me:</h4>
+        <ul>
+          <li>E-mail: <a href="mailto:agataszulc97@gmail.com">agataszulc97@gmail.com</a></li>
+          <li><a href="https://github.com/aszulc97" target="_blank">My github</a></li>
+          <li><a href="https://www.linkedin.com/in/agata-szulc/" target="_blank">My linkedin</a></li>
+        </ul>
+      </di>
+    </footer>
   </body>
 </html>
