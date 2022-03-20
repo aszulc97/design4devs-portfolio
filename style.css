@@ -93,10 +93,6 @@ header {
   padding: 10rem 23rem;
 }
 
-#fonts_header {
-  padding: 5rem 16rem;
-}
-
 button {
   background-color: var(--darkblue);
   border: 1px solid var(--sand);
@@ -160,4 +156,45 @@ section {
   cursor: pointer;
   opacity: 70%;
   border: 5px solid var(--darksand);
+}
+
+#fonts_header {
+  padding: 3rem 16rem;
+}
+
+#mockup {
+  display: flex;
+  align-items: center;
+  padding: 0 0 3rem 0;
+}
+
+#mockup img {
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#solution {
+  background-color: white;
+  padding: 2rem 10rem;
+}
+
+#solution h2 {
+  margin: 2rem 0 0 0;
+}
+
+#solution * {
+  color: var(--darkblue);
+}
+
+.solution_text h3 {
+  margin-top: 4rem;
+}
+
+.solution_text p {
+  margin-top: 1rem;
+}
+
+#uicards {
+  display: flex;
 }
